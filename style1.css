@@ -1,0 +1,58 @@
+			
+
+//$squery = "select * from products_items";
+
+//$query = mysqli_query($con, $squery);
+
+//$num = mysqli_num_rows($query);
+
+//$res = mysqli_fetch_array($query);
+
+
+//while($res = mysqli_fetch_array($query)){
+
+	
+	?>
+	
+		<tr>
+			<td> 
+       <?php
+echo $res['product_id']; 
+?></td>
+		
+			
+			<td><?php echo $res['product_name']; ?></td>
+			
+		
+			<td>><?php echo $res['product_price']; ?></td>
+			
+			    <td><?php echo $res['product_quantity']; ?> </td>
+			
+			
+			
+		  <td><?php echo $res['images']; ?></td>
+	      
+		
+            ?>
+		
+				
+	
+				</tr>
+	
+           <?php	
+	
+          }
+
+      ?>  
+
+        </tbody>
+          </table>
+        </div>
+    </div>
+	<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>  
+--->
+    

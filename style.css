@@ -1,0 +1,304 @@
+  
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 40%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ff8200;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+
+}
+
+        .nav-item{
+          word-spacing:40px;
+            padding-right: 30px;
+            
+            color:black;
+         }
+        .nav-link{
+            color:black;
+        
+        }
+       
+     @media screen and (max-width: 992px) {
+          .nav-item{
+             background-color:blueviolet;
+              color: white;
+              width:100%;
+  }
+}
+     @media screen and (max-width:800px) {
+          .nav-item{
+             background-color:green;
+              color: darkred;
+              width:100%;
+  }
+}
+        .navbar-nav{
+            float:right;
+            padding-left: 40px;
+       
+        }
+        .item{
+            max-width: 100%;
+            height: 400px;
+        }
+        .carousel-caption{
+            color:greenyellow;
+        }
+        
+       
+        .navbar-brand{
+            width: 20px;
+            height: 20px;
+        }
+        
+    h3{
+    font-size: 40px;
+        text-align: center;
+        padding-bottom: 40px;
+        }
+    </style>
+      <style>
+body {margin:0;height:1000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: green;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background:red;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+                    .post-slider{
+						position: relative;
+						
+						background-color:;
+                       
+						
+					}
+				
+					.post-slider .slider-title{
+						text-align:center;
+						margin:30px auto;
+					}
+					
+					.post-slider .next {
+					position:absolute;
+						top:40%;
+						right: 2%;
+						font-size:2cm;
+						color:blue;
+						cursor:pointer;
+                    
+					}
+					.post-slider .prev {
+					position:absolute;
+						top:40%;
+						left: 2%;
+						font-size:2cm;
+						color:blue;
+						cursor:pointer;
+					}
+					
+					.post-slider .post-wrapper{
+						width:90%;
+						height:350px;
+						margin:0px auto;
+						overflow: hidden;
+						border: 10px solid white; 
+					}
+					
+					.post-slider .post-wrapper .post {
+					width:300px;
+					height:350px;
+						margin: 0px 10px;
+						display:inline-block;
+						background-color:lightgreen;
+						
+						
+						
+					}
+					
+					.post-slider .post-wrapper .post .slide-image{
+						width:100%;
+						height:200px;
+					  /* border-radius: 50%; */
+							
+					}
+
+</style>
+    
+    /*---blog---- */
+    
+    
+    img{
+        max-width: 100%;
+        height:auto;
+        background-color:lightblue;
+        background: radial-gradient(white 30%, lightblue 70%);
+        
+    }
+    .fa-star,
+    .fa-star-half{
+        color:yellowgreen;
+        padding: 3%, 0%;
+    }
+
